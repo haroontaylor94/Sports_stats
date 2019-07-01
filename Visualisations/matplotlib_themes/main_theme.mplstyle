@@ -1,0 +1,37 @@
+### FIGURE
+# See http://matplotlib.org/api/figure_api.html#matplotlib.figure.Figure
+figure.titlesize : x-large     # size of the figure title
+figure.titleweight : normal   # weight of the figure title
+figure.facecolor : e0e5e1    # figure facecolor
+figure.edgecolor : e0e5e1      # figure edgecolor
+
+
+
+### AXES
+# same background color everywhere
+axes.edgecolor: e0e5e1
+axes.facecolor: e0e5e1
+
+axes.grid: True
+axes.grid.axis : y
+axes.axisbelow : True
+axes.labelpad: 15
+axes.titlepad: 15
+axes.xmargin: 0.1
+axes.ymargin: 0.1
+ytick.left: False
+axes.titlesize: x-large
+axes.labelsize: large
+axes.prop_cycle: cycler('color', ['004225', 'F0AD4E', '5CB85C', 'D9534F', '9467BD', '8C564B', 'E377C2'])
+
+
+patch.facecolor: e0e5e1
+
+### LEGEND
+
+legend.fancybox: True
+
+
+### TEXT
+
+text.color: k
