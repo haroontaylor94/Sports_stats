@@ -1,35 +1,37 @@
 ### FIGURE
-# See http://matplotlib.org/api/figure_api.html#matplotlib.figure.Figure
-figure.titlesize : x-large     # size of the figure title
-figure.titleweight : normal   # weight of the figure title
-figure.facecolor : e0e5e1    # figure facecolor
-figure.edgecolor : e0e5e1      # figure edgecolor
+figure.titlesize : 100     # size of the figure title
+figure.titleweight : bold   # weight of the figure title
+figure.facecolor : F0FFFF    # figure facecolor
+figure.edgecolor : F0FFFF      # figure edgecolor
 
+### FONT
+font.family: sans-serif
+font.serif: DejaVu Serif
 
 
 ### AXES
-# same background color everywhere
-axes.edgecolor: e0e5e1
-axes.facecolor: e0e5e1
-
-axes.grid: True
-axes.grid.axis : y
-axes.axisbelow : True
+axes.titlesize : 30
+axes.titleweight: bold
+axes.facecolor: F0FFFF
+axes.linewidth: 0.8 
+axes.spines.top: False
+axes.spines.right: False
+axes.axisbelow: True
 axes.labelpad: 15
 axes.titlepad: 15
 axes.xmargin: 0.1
 axes.ymargin: 0.1
-ytick.left: False
-axes.titlesize: x-large
-axes.labelsize: large
-axes.prop_cycle: cycler('color', ['004225', 'F0AD4E', '5CB85C', 'D9534F', '9467BD', '8C564B', 'E377C2'])
+axes.labelsize: 20
 
-
-patch.facecolor: e0e5e1
+### COLOURS
+axes.prop_cycle: cycler('color', ['21b5e2', 'fc724f', '00bd6a', '8762ff', 'ffb400'])
 
 ### LEGEND
 
+legend.loc: upper right
 legend.fancybox: True
+legend.shadow: True
+legend.bbox_to_anchor: (1.5, 1.5)
 
 
 ### TEXT
